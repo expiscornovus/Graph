@@ -28,7 +28,7 @@ steps:
   # Publish Build Artifacts SPFx sppkg
 - task: PublishBuildArtifacts@1
   inputs:
-    pathtoPublish: '$(Build.StagingDirectory)/sharepoint/solution/graph.sppkg' 
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)/sharepoint/solution/graph.sppkg' 
     artifactName: 'SPFx sppkg' 
   displayName: 'Publish build SPFx artifacts'
   # https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/publish-build-artifacts?view=vsts
