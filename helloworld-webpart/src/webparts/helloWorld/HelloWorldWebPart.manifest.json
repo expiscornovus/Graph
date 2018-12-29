@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "31f56f43-188e-4867-8a1b-6a4a333ee2d1",
+  "alias": "HelloWorldWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Other" },
+    "title": { "default": "HelloWorld" },
+    "description": { "default": "HelloWorld description" },
+    "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAcCAYAAAATFf3WAAAACXBIWXMAAAsSAAALEgHS3X78AAAByElEQVRYhe2Wv3HCMBTGP3I5tWQD2IA0LlSFDUImCBuEERgh2SBs4GwAlQs1yQawQdK6IadEvsjvjxDgO6fg13B++pC+9/QsebDf7xHjjN0CGKHNqqirOYl57RhACWAC4KOoq1tBcwNgHTQND0VdlVQrcSXEblgEeHTGTlkUWEQLTxTNjJjzjJlKQTKoZcaqA4AamjEF16TWYEgG1ywiLOR+t5dWJsegb4UtUylIBrXs6EJSZUbBeJwE7WetACLMYFFXnz5LQTx0xsbbLFWLxqUkXlkkATMYyKnivaJJGfwq6uqd/SPBSQadsVr1PHfhaJEMavOqiAZDljs28LdgyuDPuNJ/3RgMSM3c9KHUWzFTRSPNmSRlUMt2LlSGMhMMbsIL2JlBLdsn8vzCFMDQ3z4kpiWcRDUYst2wAY4/Nt5YlNOtwcChSXfhhcrRZd8eMecaXJNfjZOqh0MGQ9bScdNQRjrp9mnpOjd4YHJ/K5SZuqOPl4Ycg9rk1JBmUItnwb6oJZyxz+R70L/hC9r4ztglOf+8bnns/RuTZbBPcra4V677Wjy0A6Ooq1a8ty12xooLF3U1iJ///RZfDJ7LxWCClTDWjgH4BlPaiqc4Xx4AAAAAAElFTkSuQmCC",
+    "properties": {
+      "description": "HelloWorld",
+      "test": "Multi-line text field",
+      "test1": true,
+      "test2": "2",
+      "test3": true
+     }
+  }]
+}
