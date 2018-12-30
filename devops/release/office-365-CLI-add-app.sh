@@ -9,6 +9,6 @@ o365 version
 # to agree with the consent first time
 # Variables changed
 
-o365 spo login $SITE_URL --authType password --userName $EMAIL --password $PASS
+o365 spo login https://m365x952308.sharepoint.com --authType password --userName admin@m365x952308.onmicrosoft.com --password $PASS
 
 o365 spo app add --filePath "./_SPFx build/SPFx sppkg/helloworld-webpart.sppkg" --overwrite --verbose
