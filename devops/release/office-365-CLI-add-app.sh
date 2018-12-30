@@ -7,6 +7,7 @@ o365 version
 
 # you have to run "o365 spo login https://contoso.sharepoint.com"
 # to agree with the consent first time
+# Variables changed
 
 o365 spo login $SITE_URL --authType password --userName $EMAIL --password $PASS
 
